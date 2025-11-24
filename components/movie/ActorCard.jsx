@@ -4,7 +4,7 @@ import { Image, Pressable, Text, View } from 'react-native';
 
 export const ActorCard = ({ actor }) => {
   return (
-    <View style={{ paddingBottom: 30, marginInline: 10, width: 90 }}>
+    <View style={{ paddingBottom: 60, marginInline: 10, width: 90 }}>
       <Pressable
         // className={`active:opacity-90 px-2`}
         style={{ marginInline: 8 }}
