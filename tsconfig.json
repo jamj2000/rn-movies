@@ -1,0 +1,27 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "components/movie/MovieCast.jsx",
+    "components/movie/MovieDescription.jsx",
+    "components/movie/MovieHeader.jsx",
+    "components/movies/MovieHorizontalList.jsx",
+    "components/movies/MoviePoster.jsx",
+    "components/movies/MainSlideshow.jsx",
+    "lib/hooks/useMovies.jsx",
+    "lib/hooks/useMovie.jsx",
+    "app/index.jsx",
+    "app/_layout.jsx"
+  ]
+}
